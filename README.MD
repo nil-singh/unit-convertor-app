@@ -78,13 +78,14 @@ The application provides fast and accurate real-time conversions across multiple
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/nil-singh/unit-convertor-app.git
+
 ```
 
 Move into the project directory:
 
 ```bash
-cd unit-converter
+cd unit-converter-app (project name)
 ```
 
 Install dependencies:
@@ -153,11 +154,13 @@ Checks the project for linting issues.
 Negative temperature values are supported because temperatures can exist below the freezing point of water (0°C).
 
 The application supports:
+
 - Celsius
 - Fahrenheit
 - Kelvin
 
 Absolute zero validation is included to prevent invalid temperature calculations below:
+
 - `-273.15°C`
 - `0K`
 
@@ -178,6 +181,9 @@ Absolute zero validation is included to prevent invalid temperature calculations
 The application can be deployed easily using:
 
 - Vercel
+
+here is link for this project
+https://unit-convertor-app-eight.vercel.app/
 
 ---
 
